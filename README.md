@@ -1,1 +1,22 @@
 # vscode-extension_intro
+
+この講座では、主に自身のコーディングの手助けとなるような拡張機能の作成と使用を目的としています。  
+~~ちなみに主は作成を途中で放棄して半ば諦めています~~
+
+
+
+## 目次
+1. Node.jsのDLとinst  
+2. 雛型の作成
+3. 
+
+
+
+## 1.Node.jsのDLとinst
+
+[https://nodejs.org/ja/download](https://nodejs.org/ja/download)からLTS版をDLする。
+
+> [!NOTE]
+> そのほかの設定はそのままで大丈夫(多分)
+
+その後、インストーラーでインストールする。
