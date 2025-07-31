@@ -45,21 +45,14 @@ yo code
 
 →可愛いおじさんの質問にええ感じに答えていく  
 　![カワおじ](./images/kawaozi.png)
+以下、特に重要(と主が思っている)部分を抜粋
 
 ```
-? What type of extension do you want to create?
-// 拡張機能の型を聞いてる、私はjsしかできないのでそれ選びました
-? What's the name of your extension?
-// 拡張機能の名前を入力
 ? What's the identifier of your extension?
 // そのままエンター押せば何とかなる(らしい)
-? What's the description of your extension?
-// 拡張機能の説明
-? Enable JavaScript type checking in 'jsconfig.json'?
-// ここはyで良いらしい(ってチャッピーが)
 ? Initialize a git repository? No
-// (既にリポジトリをクローンした中でy答えると二重になるから注意by前科1犯)
 // gitリポジトリを作るならここ
+// (既にリポジトリをクローンした中でy答えると二重になるから注意by前科1犯)
 ? Which package manager to use? npm
 // ここはnpmを選択
 ```
@@ -73,3 +66,19 @@ yo code
 ```
 
 これで、無事に拡張機能のテンプレートを作成できました㊗
+
+
+## 3.テンプレートの構造理解
+では実際にコードを作っていきましょう！
+……の前に、まず何が何なのかを知らないといけませんよね
+
+以下がよく使うファイルの例です(じゃば)
+
+`
+package.json
+`
+→拡張機能の設定をするファイル。実は大事。
+`
+extension.js
+`
+→実際に拡張機能の処理を書くファイル。めっちゃ大事。
