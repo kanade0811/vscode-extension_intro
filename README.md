@@ -59,7 +59,7 @@ yo code
 
 以下、特に重要(と主が思っている)部分を抜粋
 
-```bash
+```
 ? What type of extension do you want to create?
 // どういう型で作りたい？って質問。今回はTypeScriptの場合で説明するので1番上のまま`Ender`
 ? What's the identifier of your extension?
@@ -75,7 +75,7 @@ yo code
 
 ここまで入れるとぶわーって色々出てきます、待ちましょう
 
-```bash
+```
 ? Do you want to open the new folder with Visual Studio Code?
 ```
 
